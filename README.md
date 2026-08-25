@@ -1,5 +1,4 @@
 # 英语词典
-
 包含高中3500词、英语四级词汇的词典，支持多种查找模式，也可以用 Termux 或安装其他 Python 环境在手机上运行。
 
 ## 程序说明
@@ -20,7 +19,9 @@
 
 ## 运行环境
 - 电脑：本地 Python 环境直接运行
-- 手机：Termux，配置 Python 环境即可运行 \> [Termux 官网](https://termux.dev)
+- 手机：Termux，配置 Python 环境即可运行
+
+  > [Termux 官网](https://termux.dev)
 
   Termux 配置命令（将文件夹 `dictionary` 放在手机的 `Download` 目录下）：
   ```bash
