@@ -25,11 +25,12 @@
 
   Termux 配置命令（将文件夹 `dictionary` 放在手机的 `Download` 目录下）：
   ```bash
-  pkg update && pkg install -y termux-change-repo
+  pkg update -y && pkg upgrade -y
+  pkg install -y termux-tools
   # 可交互式切换国内镜像源
   termux-change-repo
-  pkg update && pkg install termux-tools
-  pkg install python
+  pkg update -y
+  pkg install python -y
   termux-setup-storage
   echo 'alias dic="cd ~/storage/downloads/dictionary && python dictionary.py"' >> ~/.bashrc && source ~/.bashrc
   ```
