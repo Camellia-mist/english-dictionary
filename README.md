@@ -35,4 +35,4 @@
   echo 'alias dic="cd ~/storage/downloads/dictionary && python dictionary.py"' >> ~/.bashrc && source ~/.bashrc
   ```
 
-    > 配置完成后输入 `dic` 即可启动字典程序
+    > 逐行复制执行，配置完成后输入 `dic` 即可启动字典程序
